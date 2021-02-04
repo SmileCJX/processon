@@ -1,1 +1,136 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T09:39:59.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" version="14.2.9" etag="WZh8ShSbGT8pQlbkRWHY" type="github"><diagram id="UN1B8tXsZsPeBrKihUz2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-04T10:25:58.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="a7nYrrc7EFZVTbZPiAxo" version="14.2.9" type="github">
+  <diagram id="UN1B8tXsZsPeBrKihUz2" name="第 1 页">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="640" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-4" value="医疗健康数据共享交换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="220" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="150" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="250" width="150" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="250" width="150" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-10" value="资源目录中心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-11" value="元数据管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="300" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-12" value="标准管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="350" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-13" value="资源注册与发现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="410" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-14" value="共享交换中心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="270" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-15" value="系统适配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="300" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-16" value="共享交换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="444" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-17" value="可靠传输" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="444" y="410" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-18" value="统一监管中心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="270" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-19" value="运行监管" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="300" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-20" value="异常告警" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-21" value="性能分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="410" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-22" value="卫&lt;br&gt;生&lt;br&gt;行&lt;br&gt;业&lt;br&gt;标&lt;br&gt;准" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="250" width="50" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-23" value="安&lt;br&gt;全&lt;br&gt;保&lt;br&gt;障&lt;br&gt;体&lt;br&gt;系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="250" width="50" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="50" width="640" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-25" value="各级平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="179" y="90" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-26" value="国家/市/区级卫生平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-27" value="智慧公共卫生机构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-28" value="......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="619" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="590" width="640" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-30" value="医疗机构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="630" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-31" value="医院" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-32" value="基层医疗卫生机构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-33" value="专业公共卫生机构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-34" value="......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="80" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-37" value="政府机构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="210" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-38" value="社保" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-39" value="公安" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-40" value="民政" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="180" width="80" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-42" value="中心应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="875" y="200" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-43" value="妇幼" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="240" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-44" value="基层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="310" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-45" value="药监" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-46" value="....." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="872.5" y="450" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByUWFRxSsnMN81YF6tTT-47" value="企业服务总线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="490" width="475" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
