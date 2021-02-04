@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T07:40:22.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="v1u0TsnycvIv6cyQk6eV" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T08:05:25.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="MLlkkW-Vn7BUfVP0AIgV" version="14.2.9" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
           <mxGeometry x="50" y="42.5" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BFTq7_KF8aVC6eQu7_rG-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="150" width="770" height="570" as="geometry" />
+          <mxGeometry x="30" y="150" width="770" height="620" as="geometry" />
         </mxCell>
         <mxCell id="BFTq7_KF8aVC6eQu7_rG-12" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="160" width="40" height="20" as="geometry" />
@@ -40,17 +40,14 @@
         <mxCell id="BFTq7_KF8aVC6eQu7_rG-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="190" width="450" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BFTq7_KF8aVC6eQu7_rG-14" value="公共卫生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-14" value="家庭医生签约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="220" width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="BFTq7_KF8aVC6eQu7_rG-15" value="医疗服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-15" value="互联网诊疗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="220" width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="BFTq7_KF8aVC6eQu7_rG-16" value="医疗保障" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-16" value="分级诊疗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="220" width="60" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="BFTq7_KF8aVC6eQu7_rG-17" value="药品供应保障" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="220" width="60" height="45" as="geometry" />
         </mxCell>
         <mxCell id="BFTq7_KF8aVC6eQu7_rG-18" value="外部共享" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="220" width="60" height="45" as="geometry" />
@@ -76,7 +73,7 @@
         <mxCell id="BFTq7_KF8aVC6eQu7_rG-28" value="统计分析库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="590" y="200" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BFTq7_KF8aVC6eQu7_rG-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-29" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="290" width="80" height="290" as="geometry" />
         </mxCell>
         <mxCell id="BFTq7_KF8aVC6eQu7_rG-30" value="卫生资源库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -279,6 +276,75 @@
             <mxPoint x="655" y="520" as="sourcePoint" />
             <mxPoint x="578.96" y="527.8499999999999" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-83" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="660" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-84" value="信息资源目录库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="670" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-85" value="元数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="690" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-86" value="目录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="690" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-87" value="分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="690" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-88" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="660" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-89" value="标准规范库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="670" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-90" value="数据标准" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="690" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-91" value="值域/代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="690" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-92" value="编码/指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="690" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-93" value="术语" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="690" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-94" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="660" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-95" value="基础支撑库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="670" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-96" value="医疗资源目录库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="690" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-97" value="医疗资源数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="690" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-98" value="......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="690" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-99" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="780" width="770" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-100" value="存储层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-101" value="目录服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-102" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-103" value="文件系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-104" value="数据仓库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFTq7_KF8aVC6eQu7_rG-105" value="大数据资源池" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="820" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
