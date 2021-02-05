@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T05:20:38.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="yRLZqFviMKPxk3E7PdCv" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T08:24:23.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="Yhkx-jwU2btfwbXXsbTu" version="14.2.9" type="github">
   <diagram id="QvLdaSlUCHxsrbrDoadu" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,10 +31,15 @@
         <mxCell id="sPvBRG2yordhcr0XgPHq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sPvBRG2yordhcr0XgPHq-7" target="sPvBRG2yordhcr0XgPHq-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sPvBRG2yordhcr0XgPHq-7" value="质量检查方案明细表&lt;br&gt;TASK_QLT_CHK_SCHM_DETL_C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="374" y="720" width="120" height="60" as="geometry" />
+        <mxCell id="sPvBRG2yordhcr0XgPHq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sPvBRG2yordhcr0XgPHq-7" target="sPvBRG2yordhcr0XgPHq-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="sPvBRG2yordhcr0XgPHq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sPvBRG2yordhcr0XgPHq-11" target="sPvBRG2yordhcr0XgPHq-7">
+        <mxCell id="sPvBRG2yordhcr0XgPHq-7" value="质量检查方案明细表&lt;br&gt;TASK_QLT_CHK_SCHM_DETL_C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sPvBRG2yordhcr0XgPHq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sPvBRG2yordhcr0XgPHq-11" target="sPvBRG2yordhcr0XgPHq-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="810" as="targetPoint" />
           </mxGeometry>
@@ -43,7 +48,7 @@
           <mxGeometry x="150" y="845" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sPvBRG2yordhcr0XgPHq-13" value="通用字典&lt;br&gt;DIC_GEN_A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sPvBRG2yordhcr0XgPHq-14" value="上传量表&lt;br&gt;BIZ_UPLD_CNT_E" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="670" width="120" height="60" as="geometry" />
@@ -61,7 +66,7 @@
           <mxGeometry x="150" y="780" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sPvBRG2yordhcr0XgPHq-20" value="质量规则表&lt;br&gt;RULE_QLT_B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sPvBRG2yordhcr0XgPHq-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sPvBRG2yordhcr0XgPHq-21" target="sPvBRG2yordhcr0XgPHq-20">
           <mxGeometry relative="1" as="geometry" />
@@ -132,6 +137,9 @@
         </mxCell>
         <mxCell id="sPvBRG2yordhcr0XgPHq-40" value="规则关联完整性日志表&lt;br&gt;RULE_ASOC_FUL_LOG_D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="554.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sPvBRG2yordhcr0XgPHq-43" value="定期质检方案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
