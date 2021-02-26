@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T07:29:11.516Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="BooNuQ38-AWhzlbeof5R" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-26T07:34:44.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="39NqlhNKWvFRUsrDsmV0" version="14.4.2" type="github">
   <diagram id="ctFuMoFBZl4wvK6_Ql2x" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -243,6 +243,9 @@
             <mxPoint x="340" y="1050" as="sourcePoint" />
             <mxPoint x="340" y="110" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0Ct6xSLvvkmOlB_KeLBl-61" value="说明：&lt;br&gt;1、上传机构密钥，一个机构仅需调用一次即可（初始化）&lt;br&gt;2、验证医学标识非必需步骤，可不验证&lt;br&gt;3、生成密钥对可使用平台能力或者SDK能力，二者选其一，生成的私钥自己保留，不对外暴露&lt;br&gt;4、上传接入系统应用公钥，一个接入系统仅需调用一次即可（初始化）&lt;br&gt;5、下载接入应用系统公钥非必需步骤，可不下载" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="130" width="150" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
