@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T02:10:30.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="KYqTbt0Zfp78zLTN0U8e" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T02:36:54.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="PI7DBKQ52T6JTCJm1TGt" version="14.4.3" type="github">
   <diagram id="hsp45zCafMfucEhCnzqF" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,14 +7,56 @@
         <mxCell id="e3TSedbUCMiVldoPXaUA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e3TSedbUCMiVldoPXaUA-1" target="e3TSedbUCMiVldoPXaUA-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3TSedbUCMiVldoPXaUA-1" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="e3TSedbUCMiVldoPXaUA-1" value="Start&lt;br&gt;（不创建定时，交由外部）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e3TSedbUCMiVldoPXaUA-2" value="获取入参" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="e3TSedbUCMiVldoPXaUA-2" value="获取入参（公共组件）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e3TSedbUCMiVldoPXaUA-4" value="医疗机构代码：YLJGDM&lt;br&gt;医疗 机构名称：YLJGMC&lt;br&gt;业务类型：bisType&lt;br&gt;Mongo数据库IP：cdr-mongodb-ip&lt;br&gt;Mongo数据库端口：cdr-mongodb-port&lt;br&gt;Mongo数据库密码：cdr-mongodb-pwd&lt;br&gt;&lt;div&gt;&lt;span&gt;Monggo数据库用户：cdr-mongodb-user&lt;/span&gt;&lt;/div&gt;&lt;div&gt;结束值：endValue&lt;/div&gt;&lt;div&gt;重新加载：reload？&lt;/div&gt;&lt;div&gt;开始时间：startValue&lt;/div&gt;&lt;div&gt;步长模式：stepMode&lt;/div&gt;&lt;div&gt;步长单位：stepUnit&lt;/div&gt;&lt;div&gt;步长值：stepValue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="e3TSedbUCMiVldoPXaUA-4" value="医疗机构代码：YLJGDM&lt;br&gt;医疗 机构名称：YLJGMC&lt;br&gt;业务类型：bisType&lt;br&gt;Mongo数据库IP：cdr-mongodb-ip&lt;br&gt;Mongo数据库端口：cdr-mongodb-port&lt;br&gt;Mongo数据库密码：cdr-mongodb-pwd&lt;br&gt;&lt;div&gt;&lt;span&gt;Monggo数据库用户：cdr-mongodb-user&lt;/span&gt;&lt;/div&gt;&lt;div&gt;结束值：endValue&lt;/div&gt;&lt;div&gt;重新加载：reload？&lt;/div&gt;&lt;div&gt;开始时间：startValue&lt;/div&gt;&lt;div&gt;步长模式：stepMode&amp;nbsp; &amp;nbsp; 1 正序&amp;nbsp; 2 倒序&lt;/div&gt;&lt;div&gt;步长单位：stepUnit&lt;/div&gt;&lt;div&gt;步长值：stepValue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="90" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-5" value="kettle自带三张日志表（目前三张表）&lt;br&gt;&lt;div&gt;&lt;span&gt;1、作业日志表：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2、作业项日志表&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;3、日志通道日志表：&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="250" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-6" value="转换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e3TSedbUCMiVldoPXaUA-7" target="e3TSedbUCMiVldoPXaUA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-7" value="判断同步配置是否存在（从kettle_syn_job_set中获取）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e3TSedbUCMiVldoPXaUA-8" target="e3TSedbUCMiVldoPXaUA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e3TSedbUCMiVldoPXaUA-8" target="e3TSedbUCMiVldoPXaUA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-8" value="Switch/case 2" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-11" value="插入/更新2" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-13" value="不存在时" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="750" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e3TSedbUCMiVldoPXaUA-14" target="e3TSedbUCMiVldoPXaUA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-14" value="计算每次同步区间" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-16" value="复记录到结果" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3TSedbUCMiVldoPXaUA-19" value="" style="endArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="e3TSedbUCMiVldoPXaUA-11" target="e3TSedbUCMiVldoPXaUA-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="660" as="sourcePoint" />
+            <mxPoint x="440" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
