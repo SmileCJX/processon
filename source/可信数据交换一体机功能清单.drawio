@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T09:53:46.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="g-qt3DfySYEIW2hQtNI8" version="14.4.4" type="github">
-  <diagram id="5e_H0hsrlcVkuMG9cHF5" name="第 1 页">
+<mxfile host="app.diagrams.net" modified="2021-03-10T09:54:18.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ZHTk2T_8XgEKI8WXa71A" version="14.4.4" type="github" pages="2">
+  <diagram id="5e_H0hsrlcVkuMG9cHF5" name="基础服务">
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -205,6 +205,14 @@
             <mxPoint x="130" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LyA_yuLLf9C5Z-VLfsYe" name="SAAS服务">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WFukWK4rrtxO0HqULdLA-0" />
+        <mxCell id="WFukWK4rrtxO0HqULdLA-1" parent="WFukWK4rrtxO0HqULdLA-0" />
       </root>
     </mxGraphModel>
   </diagram>
