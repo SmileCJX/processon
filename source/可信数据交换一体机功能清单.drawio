@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T07:03:55.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="F4YAjNHAamXyaZIqH2Kc" version="14.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-16T07:14:43.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="HZZxfrz1mVlLAb9q72cr" version="14.4.6" type="github" pages="2">
   <diagram id="5e_H0hsrlcVkuMG9cHF5" name="基础服务">
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
         <mxCell id="trmuwNfhQ5oqq0DnWQoF-0" value="SAAS服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="330" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="trmuwNfhQ5oqq0DnWQoF-1" value="创建证书表" style="rounded=0;whiteSpace=wrap;html=1;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
+        <mxCell id="trmuwNfhQ5oqq0DnWQoF-1" value="申请单位证书" style="rounded=0;whiteSpace=wrap;html=1;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="80" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="trmuwNfhQ5oqq0DnWQoF-2" value="&lt;div&gt;SAAS模式设计&lt;/div&gt;&lt;div&gt;1. 主要是通过云服务管理机构的证书，创建证书表，&lt;/div&gt;&lt;div&gt;记录证书有效期，机构名称等参数。&lt;/div&gt;&lt;div&gt;2. 获取证书公钥&lt;/div&gt;&lt;div&gt;3. OFD印章的制作&lt;/div&gt;&lt;div&gt;4. 给OFD文件进行签章&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
@@ -228,7 +228,7 @@
             <mxPoint x="440" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="trmuwNfhQ5oqq0DnWQoF-4" value="获取证书公钥" style="rounded=0;whiteSpace=wrap;html=1;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
+        <mxCell id="trmuwNfhQ5oqq0DnWQoF-4" value="证书信息查询（获取证书公钥）" style="rounded=0;whiteSpace=wrap;html=1;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="220" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="trmuwNfhQ5oqq0DnWQoF-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WFukWK4rrtxO0HqULdLA-1" source="trmuwNfhQ5oqq0DnWQoF-4" target="trmuwNfhQ5oqq0DnWQoF-0" edge="1">
@@ -259,7 +259,7 @@
           <mxGeometry x="50" y="80" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="1O7FqmcMPuuCGYDgBe3v-1" value="公钥可能会变更&lt;br&gt;1、拿到江南天安的公私钥&lt;br&gt;2、证书从天安或者正元拿到" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
-          <mxGeometry x="30" y="380" width="150" height="80" as="geometry" />
+          <mxGeometry x="35" y="350" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1O7FqmcMPuuCGYDgBe3v-3" value="CDA（base64）转HTML转OFD（base64）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
           <mxGeometry x="290" y="420" width="120" height="60" as="geometry" />
@@ -284,6 +284,15 @@
         </mxCell>
         <mxCell id="1O7FqmcMPuuCGYDgBe3v-8" value="使用天安或者正元提供的能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
           <mxGeometry x="650" y="400" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EAdwQGcAgzf6uMSCgmFV-0" value="创建公司用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
+          <mxGeometry x="30" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EAdwQGcAgzf6uMSCgmFV-1" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WFukWK4rrtxO0HqULdLA-1" source="EAdwQGcAgzf6uMSCgmFV-0" target="trmuwNfhQ5oqq0DnWQoF-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="508.38709677419365" y="420" as="sourcePoint" />
+            <mxPoint x="400" y="140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
