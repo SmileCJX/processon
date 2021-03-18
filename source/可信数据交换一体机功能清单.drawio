@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T03:30:33.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="1aOE4rEjXoGNIDg5afZF" version="14.4.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-18T05:19:04.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="v1uzSrUWj3GmN4U2qfGj" version="14.4.8" type="github" pages="3">
   <diagram id="5e_H0hsrlcVkuMG9cHF5" name="基础服务">
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -328,6 +328,30 @@
             <mxPoint x="500" y="280" as="sourcePoint" />
             <mxPoint x="500" y="470" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OrcxVbt4lt_xmgm2AguN-9" value="resp：&lt;br&gt;个人用户唯一标识" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OrcxVbt4lt_xmgm2AguN-1">
+          <mxGeometry x="240" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrcxVbt4lt_xmgm2AguN-10" value="reqt：&lt;br&gt;企业名称、统一社会信用代码" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OrcxVbt4lt_xmgm2AguN-1">
+          <mxGeometry x="40" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrcxVbt4lt_xmgm2AguN-12" value="reqt：个人用户唯一标识、是否管理员" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OrcxVbt4lt_xmgm2AguN-1">
+          <mxGeometry x="369" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrcxVbt4lt_xmgm2AguN-14" value="resp：&lt;br&gt;证书序列号、公钥证书" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OrcxVbt4lt_xmgm2AguN-1">
+          <mxGeometry x="560" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrcxVbt4lt_xmgm2AguN-15" value="reqt：证书序列号、用户ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OrcxVbt4lt_xmgm2AguN-1">
+          <mxGeometry x="580" y="440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrcxVbt4lt_xmgm2AguN-16" value="resp：印章ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OrcxVbt4lt_xmgm2AguN-1">
+          <mxGeometry x="369" y="430" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrcxVbt4lt_xmgm2AguN-17" value="reqt：ofd原文、证书序列号、印章ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OrcxVbt4lt_xmgm2AguN-1">
+          <mxGeometry x="250" y="420" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrcxVbt4lt_xmgm2AguN-18" value="resp：签章结果base64" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OrcxVbt4lt_xmgm2AguN-1">
+          <mxGeometry x="70" y="420" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
