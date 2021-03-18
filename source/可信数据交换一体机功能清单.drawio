@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T08:01:02.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="SrdrhwdfLvJ2IVDsrnH9" version="14.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-18T03:19:03.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Qo6UQmL9hG6sHMy20kFM" version="14.4.8" type="github" pages="3">
   <diagram id="5e_H0hsrlcVkuMG9cHF5" name="基础服务">
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -246,51 +246,59 @@
             <mxPoint x="320" y="175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1O7FqmcMPuuCGYDgBe3v-0" value="设计库表&lt;br&gt;1、证书表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
+        <mxCell id="1O7FqmcMPuuCGYDgBe3v-0" value="设计库表&lt;br&gt;1、证书表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="50" y="80" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1O7FqmcMPuuCGYDgBe3v-1" value="公钥可能会变更&lt;br&gt;1、拿到江南天安的公私钥&lt;br&gt;2、证书从天安或者正元拿到" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
+        <mxCell id="1O7FqmcMPuuCGYDgBe3v-1" value="公钥可能会变更&lt;br&gt;1、拿到江南天安的公私钥&lt;br&gt;2、证书从天安或者正元拿到" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="35" y="350" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1O7FqmcMPuuCGYDgBe3v-3" value="CDA（base64）转HTML转OFD（base64）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
+        <mxCell id="1O7FqmcMPuuCGYDgBe3v-3" value="CDA（base64）转HTML转OFD（base64）" style="rounded=0;whiteSpace=wrap;html=1;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="290" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1O7FqmcMPuuCGYDgBe3v-4" value="PDF(base64)转OFD(base64)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
+        <mxCell id="1O7FqmcMPuuCGYDgBe3v-4" value="PDF(base64)转OFD(base64)" style="rounded=0;whiteSpace=wrap;html=1;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="450" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1O7FqmcMPuuCGYDgBe3v-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WFukWK4rrtxO0HqULdLA-1" source="1O7FqmcMPuuCGYDgBe3v-3" target="trmuwNfhQ5oqq0DnWQoF-0">
+        <mxCell id="1O7FqmcMPuuCGYDgBe3v-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WFukWK4rrtxO0HqULdLA-1" source="1O7FqmcMPuuCGYDgBe3v-3" target="trmuwNfhQ5oqq0DnWQoF-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="390" as="sourcePoint" />
             <mxPoint x="390" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1O7FqmcMPuuCGYDgBe3v-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WFukWK4rrtxO0HqULdLA-1" source="1O7FqmcMPuuCGYDgBe3v-4" target="trmuwNfhQ5oqq0DnWQoF-0">
+        <mxCell id="1O7FqmcMPuuCGYDgBe3v-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WFukWK4rrtxO0HqULdLA-1" source="1O7FqmcMPuuCGYDgBe3v-4" target="trmuwNfhQ5oqq0DnWQoF-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="450" as="sourcePoint" />
             <mxPoint x="400" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1O7FqmcMPuuCGYDgBe3v-7" value="使用友虹提供的能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
+        <mxCell id="1O7FqmcMPuuCGYDgBe3v-7" value="使用友虹提供的能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="370" y="500" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1O7FqmcMPuuCGYDgBe3v-8" value="使用天安或者正元提供的能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
+        <mxCell id="1O7FqmcMPuuCGYDgBe3v-8" value="使用天安或者正元提供的能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="650" y="400" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EAdwQGcAgzf6uMSCgmFV-0" value="创建公司用户、申请单位证书（外放）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
+        <mxCell id="EAdwQGcAgzf6uMSCgmFV-0" value="创建公司用户、申请单位证书（外放）" style="rounded=0;whiteSpace=wrap;html=1;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="35" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EAdwQGcAgzf6uMSCgmFV-1" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WFukWK4rrtxO0HqULdLA-1" source="EAdwQGcAgzf6uMSCgmFV-0" target="trmuwNfhQ5oqq0DnWQoF-0">
+        <mxCell id="EAdwQGcAgzf6uMSCgmFV-1" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WFukWK4rrtxO0HqULdLA-1" source="EAdwQGcAgzf6uMSCgmFV-0" target="trmuwNfhQ5oqq0DnWQoF-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="508.38709677419365" y="420" as="sourcePoint" />
             <mxPoint x="400" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EAdwQGcAgzf6uMSCgmFV-2" value="P1简单签名、非对称加密取代天安的加密" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
+        <mxCell id="EAdwQGcAgzf6uMSCgmFV-2" value="P1简单签名、非对称加密取代天安的加密" style="rounded=0;whiteSpace=wrap;html=1;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="35" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EAdwQGcAgzf6uMSCgmFV-7" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WFukWK4rrtxO0HqULdLA-1">
+        <mxCell id="EAdwQGcAgzf6uMSCgmFV-7" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="WFukWK4rrtxO0HqULdLA-1" vertex="1">
           <mxGeometry x="500" y="-110" width="40" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qe_5_aNjlwIGz0IIlVo4" name="SAAS签章流程">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="OrcxVbt4lt_xmgm2AguN-0" />
+        <mxCell id="OrcxVbt4lt_xmgm2AguN-1" parent="OrcxVbt4lt_xmgm2AguN-0" />
       </root>
     </mxGraphModel>
   </diagram>
