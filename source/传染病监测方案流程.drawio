@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T08:33:34.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="TiLQft3EB7lJZXbdBWCB" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T08:38:33.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="6gSE1gpdqnnlKuxp25SW" version="14.4.9" type="github">
   <diagram id="q5IRWlEj_tBxsEDcjkvn" name="第 1 页">
     <mxGraphModel dx="1422" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,18 @@
         </mxCell>
         <mxCell id="l8pBboNVzCoDcgD-SjBr-13" value="不进行调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="430" width="106" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l8pBboNVzCoDcgD-SjBr-14" value="易惠反馈接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l8pBboNVzCoDcgD-SjBr-15" value="反馈接口还需要补充，让院方根据我们的要求做接口，不太现实，也开放查询接口和开发日志库表，让对方去查" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="540" width="106" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l8pBboNVzCoDcgD-SjBr-16" value="上传接口，也提供webservice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l8pBboNVzCoDcgD-SjBr-17" value="暂时不考虑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="620" width="106" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
