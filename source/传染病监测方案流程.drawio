@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T09:47:42.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="l9TMMZtgMxvwyr6K7onX" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T09:48:55.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="kKfE9BAevVw669ObsWaL" version="14.4.9" type="github">
   <diagram id="q5IRWlEj_tBxsEDcjkvn" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,6 +87,9 @@
         </mxCell>
         <mxCell id="l8pBboNVzCoDcgD-SjBr-29" value="反馈 100次" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="930" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l8pBboNVzCoDcgD-SjBr-30" value="考虑给医院做一个基础的页面，可以查看数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
