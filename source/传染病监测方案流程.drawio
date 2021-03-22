@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T08:28:12.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="WKVNwEm1wZFifX1ZdI8D" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T08:33:34.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="TiLQft3EB7lJZXbdBWCB" version="14.4.9" type="github">
   <diagram id="q5IRWlEj_tBxsEDcjkvn" name="第 1 页">
     <mxGraphModel dx="1422" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,11 +7,8 @@
         <mxCell id="l8pBboNVzCoDcgD-SjBr-1" value="随机加密验证码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l8pBboNVzCoDcgD-SjBr-2" value="数据反馈方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="l8pBboNVzCoDcgD-SjBr-3" value="数据反馈方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="l8pBboNVzCoDcgD-SjBr-3" value="数据反馈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l8pBboNVzCoDcgD-SjBr-4" value="数据上报" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="300" width="120" height="60" as="geometry" />
@@ -24,6 +21,24 @@
         </mxCell>
         <mxCell id="l8pBboNVzCoDcgD-SjBr-9" value="每5分钟查阅一次，也是通过院方主动查询数据是否有问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="200" width="106" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l8pBboNVzCoDcgD-SjBr-10" value="是否每上报一次，都需要调用验证码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="106" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l8pBboNVzCoDcgD-SjBr-11" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.436;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l8pBboNVzCoDcgD-SjBr-4" target="l8pBboNVzCoDcgD-SjBr-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="70" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8pBboNVzCoDcgD-SjBr-12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l8pBboNVzCoDcgD-SjBr-1" target="l8pBboNVzCoDcgD-SjBr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8pBboNVzCoDcgD-SjBr-13" value="不进行调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="430" width="106" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
