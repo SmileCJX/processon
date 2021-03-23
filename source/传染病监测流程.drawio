@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T07:12:54.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="CMboxPKpx0PTXa8KX5jE" version="14.4.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-23T07:16:22.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="rAuWMqGv-bVchZRCRltc" version="14.4.9" type="github" pages="3">
   <diagram id="PMMlQcvQIBsOMHkF39KB" name="业务上行和反馈流程">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -470,7 +470,7 @@
         <mxCell id="bCJaADjjDQFqn7ukpDBr-22" value="12. 上传数据页面展示" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="k6OKG1xSVsAbGiAiQeUu-1">
           <mxGeometry x="250" y="690" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bCJaADjjDQFqn7ukpDBr-23" value="提供反馈接口&lt;br&gt;1、反馈类别&lt;br&gt;（1）机构代码&lt;br&gt;（2）数据上传时间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="k6OKG1xSVsAbGiAiQeUu-1">
+        <mxCell id="bCJaADjjDQFqn7ukpDBr-23" value="提供反馈接口&lt;br&gt;1、反馈类别&lt;br&gt;（1）机构代码&lt;br&gt;（2）上传时间，格式2020-01-24" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="k6OKG1xSVsAbGiAiQeUu-1">
           <mxGeometry x="290" y="930" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bCJaADjjDQFqn7ukpDBr-24" value="调阅接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="k6OKG1xSVsAbGiAiQeUu-1">
