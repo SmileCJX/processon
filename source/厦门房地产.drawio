@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T13:33:28.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ejIN-RXpYpiwyHCM-aEj" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T13:36:02.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="fMgScGUCe8hKFkosfgpW" version="14.5.3" type="github" pages="2">
   <diagram id="z1PUTptdAegFVCWy6XEE" name="地铁">
     <mxGraphModel dx="2062" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,6 +7,17 @@
         <mxCell id="KcPvEsp4xIb7CbFTIBt4-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://img.8684.cn/intro/plan/1507538301.jpg;" vertex="1" parent="1">
           <mxGeometry x="120" y="90" width="1340" height="670" as="geometry" />
         </mxCell>
+        <mxCell id="KcPvEsp4xIb7CbFTIBt4-2" value="&lt;span style=&quot;color: rgb(68 , 68 , 68) ; font-family: &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , ; background-color: rgb(255 , 255 , 255)&quot;&gt;厦门地铁1号线为厦门地铁第一条建成运营的线路。厦门地铁1号线总体呈南北走向，连接了思明区、湖里区、集美区等重要组团，是由本岛向北辐射形成跨海快速连接通道的骨干线路。车辆采用B型车6辆编组。 013年11月13日部分开工，2014年4月全面开工，2017年3月全线贯通[1] 。 2017年10月6日至11日为体验式试运行，预计2017年年底前全线通车试运营。&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="800" width="1100" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bF7jtSeLBvWkEiVzCb_Y" name="BRT">
+    <mxGraphModel dx="2062" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="q4_YHo-yQzRu9iDSKzGQ-0" />
+        <mxCell id="q4_YHo-yQzRu9iDSKzGQ-1" parent="q4_YHo-yQzRu9iDSKzGQ-0" />
       </root>
     </mxGraphModel>
   </diagram>
