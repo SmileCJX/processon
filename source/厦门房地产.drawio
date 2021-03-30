@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T14:21:27.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ECcBJPez0WpuVzsCtOp5" version="14.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-30T14:23:25.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="7PjokoZwbSVpYn289bGq" version="14.5.3" type="github" pages="2">
   <diagram id="z1PUTptdAegFVCWy6XEE" name="地铁">
     <mxGraphModel dx="2062" dy="1076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,8 +55,13 @@
           <mxGeometry x="84" y="740" width="660" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NIOVOs2NJvx79xUigKvq-8" value="&lt;div&gt;BRT快9线：高崎机场-前埔枢纽站&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;　　前埔枢纽站-洪文站-蔡塘站-金山站-市行政服务中心站-双十中学站-县后站-高崎机场站&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q4_YHo-yQzRu9iDSKzGQ-1">
-          <mxGeometry x="80" y="850" width="660" height="60" as="geometry" />
+          <mxGeometry x="65" y="840" width="660" height="60" as="geometry" />
         </mxCell>
+        <UserObject label="厦门BRT最权威线路图" link="http://xm.bendibao.com/traffic/20161011/51844.shtm" id="s_uajDft--RU0yCxWmao-1">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q4_YHo-yQzRu9iDSKzGQ-1">
+            <mxGeometry x="40" y="50" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
