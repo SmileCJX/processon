@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T12:34:08.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="yZNktJoVzRuQmZ4xScxh" version="14.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-30T14:13:01.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="0eiZdcWto-sqD2D7sqhQ" version="14.5.3" type="github" pages="2">
   <diagram id="z1PUTptdAegFVCWy6XEE" name="地铁">
     <mxGraphModel dx="2062" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,30 @@
       <root>
         <mxCell id="q4_YHo-yQzRu9iDSKzGQ-0" />
         <mxCell id="q4_YHo-yQzRu9iDSKzGQ-1" parent="q4_YHo-yQzRu9iDSKzGQ-0" />
+        <mxCell id="NIOVOs2NJvx79xUigKvq-0" value="&lt;div&gt;BRT快1线：第一码头站-厦门北站&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;　　第一码头站-开禾路口站-思北站-斗西路站-二市站-文灶站-金榜公园-火车站-莲坂站-龙山桥站-卧龙晓城站-东芳山庄站-蔡塘站-金山站-市行政中心服务中心站-双十中学站-县后站-高崎机场站-T4候机楼站-嘉庚体育馆站-诚毅学院站-华侨大学站-大学城站-产业研究院站-中科院站-东宅站-田厝站-厦门北站。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q4_YHo-yQzRu9iDSKzGQ-1">
+          <mxGeometry x="80" y="90" width="610" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOVOs2NJvx79xUigKvq-2" value="&lt;div&gt;BRT快2线：第一码头站-同安枢纽站&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;　　第一码头-开禾路口-思北站-斗西路口-二市站-文灶-金榜公园站-火车站-莲坂站-龙山桥站-卧龙晓城站-东芳山庄站-蔡塘站-金山站-市行政服务中心站-双十中学站-县后站-高崎机场站-T4航站楼站-凤林站-东安站-后田站-东亭站-美峰站-蔡店站-潘涂站-滨海新城(西柯)枢纽站-官浔站-轻工食品园站-四口圳站-工业集中区站-第三医院站-城南站-同安枢纽站。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q4_YHo-yQzRu9iDSKzGQ-1">
+          <mxGeometry x="80" y="260" width="630" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOVOs2NJvx79xUigKvq-3" value="&lt;div&gt;BRT快3线：第一码头站-前埔枢纽站&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;　　第一码头站-开禾路口站-思北站-斗西路站-二市站-文灶站-金榜公园-火车站-莲坂站-龙山桥站-卧龙晓城站-东芳山庄站-洪文站-前埔枢纽站&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q4_YHo-yQzRu9iDSKzGQ-1">
+          <mxGeometry x="80" y="350" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOVOs2NJvx79xUigKvq-4" value="&lt;div&gt;BRT快5线：前埔枢纽站-同安枢纽站&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;　　前埔枢纽站-洪文站-蔡塘站-金山站-市行政服务中心站-双十中学站-县后站-高崎机场站-T4候机楼站-凤林站-东安站-后田站-东亭站-美峰站- 蔡店站-潘涂站- 滨海新城(西柯)枢纽站-官浔站-轻工食品园站- 四口圳站-工业集中区站-第三医院站-城南站- 同安枢纽站&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q4_YHo-yQzRu9iDSKzGQ-1">
+          <mxGeometry x="80" y="440" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOVOs2NJvx79xUigKvq-5" value="&lt;div&gt;&lt;div&gt;BRT快6线：前埔枢纽站-厦门北站&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;　　前埔枢纽站-洪文站-蔡塘站-金山站-市行政服务中心站-双十中学站-县后站-T4候机楼站-嘉庚体育馆站-诚毅学院站-华侨大学站-大学城站-中科院站-东宅站-田厝站-厦门北站&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q4_YHo-yQzRu9iDSKzGQ-1">
+          <mxGeometry x="80" y="555" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOVOs2NJvx79xUigKvq-6" value="&lt;div&gt;BRT快7线：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;　　第一码头站-开禾路口站-思北站-斗西路站-二市站-文灶站-金榜公园-火车站-莲坂站-龙山桥站-卧龙晓城站-东芳山庄站-洪文站-前埔枢纽站&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q4_YHo-yQzRu9iDSKzGQ-1">
+          <mxGeometry x="84" y="650" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOVOs2NJvx79xUigKvq-7" value="&lt;div&gt;BRT快8线：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;　　第一码头站-开禾路口站-思北站-斗西路站-二市站-文灶站-金榜公园-火车站-莲坂站-龙山桥站-卧龙晓城站-东芳山庄站-蔡塘站-金山站-市行政服务中心站-双十中学站-县后站-高崎机场站&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q4_YHo-yQzRu9iDSKzGQ-1">
+          <mxGeometry x="84" y="740" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOVOs2NJvx79xUigKvq-8" value="&lt;div&gt;BRT快9线：高崎机场-前埔枢纽站&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;　　前埔枢纽站-洪文站-蔡塘站-金山站-市行政服务中心站-双十中学站-县后站-高崎机场站&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q4_YHo-yQzRu9iDSKzGQ-1">
+          <mxGeometry x="80" y="850" width="660" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
