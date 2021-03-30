@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T12:33:25.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="6Y3rpIp4_LPBlB9dL_aO" version="14.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-30T12:34:08.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="yZNktJoVzRuQmZ4xScxh" version="14.5.3" type="github" pages="2">
   <diagram id="z1PUTptdAegFVCWy6XEE" name="地铁">
     <mxGraphModel dx="2062" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="gKQxMat19D-7fr0bkekF-3" value="厦门地铁5号线线路长43.10km，设站30 座，线路贯穿厦门岛东部区域后跨海抵达翔安南部新城，后沿翔安重要交通轴线北向连接同安，设置欧厝、董厝两座停车场，洪溪一个车辆段。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="1070" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gKQxMat19D-7fr0bkekF-4" value="&lt;div&gt;厦门地铁6号线是厦门地铁一条正在建设的线路，计划于2023年8月23日竣工，其标志色为桃园绯。&lt;/div&gt;&lt;div&gt;厦门地铁6号线起于林埭西站，接厦门地铁6号线漳州（角美）延伸段，经过海沧区、集美区、同安区，贯穿马銮湾片区、杏林湾、集美市民中心、禹洲大学城、洪塘头、官浔社区、厦门市第三医院、梵天寺、同安新城，止于新店仔站，大致呈西南至东北走向 [1]&amp;nbsp; 。&lt;/div&gt;&lt;div&gt;截至2020年11月，厦门地铁6号线线路长度46.17千米，车站数量33座，全部为地下站 [2]&amp;nbsp; ，其中林埭西站至华侨大学站已动工建设，华侨大学站至新店仔站未开工建设；该线将采用B型车6节编组无人驾驶新型列车 [1]&amp;nbsp; 。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1100" width="1290" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
