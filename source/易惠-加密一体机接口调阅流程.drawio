@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T02:50:35.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="gpI6Gm_tPqmc3lHpfcrG" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-19T07:18:15.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="D0EgxJfNecCzYdXAnsnZ" version="14.6.0" type="github" pages="2">
   <diagram id="ctFuMoFBZl4wvK6_Ql2x" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -246,6 +246,131 @@
         </mxCell>
         <mxCell id="0Ct6xSLvvkmOlB_KeLBl-61" value="说明：&lt;br&gt;1、上传机构密钥，一个机构仅需调用一次即可（初始化）&lt;br&gt;2、上传接入系统应用公钥，一个接入系统仅需调用一次即可（初始化）&lt;br&gt;3、验证医学标识非必需步骤，可不验证&lt;br&gt;4、下载接入应用系统公钥非必需步骤，可不下载&lt;br&gt;5、生成密钥对可使用平台能力或者SDK能力，二者选其一，生成的私钥自己保留，不对外暴露&lt;br&gt;6、非主流程接口，且不提供第三方厂商，仅用于内部的HTTP接口包括&lt;br&gt;提取CDA与OFD文件、删除文件CDA与OFD文档&lt;br&gt;&lt;br&gt;&lt;br&gt;其他信息：&lt;br&gt;接口调用： POST http://192.168.35.229:8082/credibleData/+服务接口&lt;br&gt;&lt;span style=&quot;color: rgb(60 , 67 , 83) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;source han sans&amp;#34; , &amp;#34;source han serif&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 13px&quot;&gt;数据库地址：192.168.44.83&amp;nbsp; 3306&amp;nbsp; &amp;nbsp; credibledata&amp;nbsp; &amp;nbsp; 账号密码credibledata/Credibledata@0222&lt;br&gt;&lt;/span&gt;&lt;br&gt;用到的三张表：&lt;br&gt;CD_APP_KEY&lt;br&gt;CD_FILE&lt;br&gt;CD_ORG_KEY&lt;br&gt;上传机构密钥——》CD_ORG_KEY&lt;br&gt;上传应用公钥——》CD_APP_KEY&lt;br&gt;保存CDA与OFD文档接口——》CD_FILE&lt;br&gt;&lt;br&gt;&lt;br&gt;7.2 请求生成密钥对以及19.数字信封解密需要用SDK包来调用" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="840" y="280" width="320" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yRpK9yz-DvWVFHiUmWCO" name="第 2 页">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-0" />
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-1" parent="_FL4bQ9hlTjrG4r76knF-0" />
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-2" value="医院HIS、EMR、LIS等系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="50" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-3" value="数据采集系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="270" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-4" value="数据转换系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="470" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-2" target="_FL4bQ9hlTjrG4r76knF-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="440" as="sourcePoint" />
+            <mxPoint x="480" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-6" value="抓取数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="190" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-3" target="_FL4bQ9hlTjrG4r76knF-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="330" as="sourcePoint" />
+            <mxPoint x="510" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-9" value="上传CDA数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="270" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-10" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-2" target="_FL4bQ9hlTjrG4r76knF-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-11" value="电子健康卡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="750" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-12" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-4" target="_FL4bQ9hlTjrG4r76knF-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-13" value="获取健康卡ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="630" y="240" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-14" value="可信数据安全服务系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="470" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-15" value="EHR浏览器（注册管理系统）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="240" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-4" target="_FL4bQ9hlTjrG4r76knF-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="480" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-17" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-4" target="_FL4bQ9hlTjrG4r76knF-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="310" as="sourcePoint" />
+            <mxPoint x="340" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-18" value="注册数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="310" y="350" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-20" value="保存CDA与OFD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="550" y="350" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-21" value="正元系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="750" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-22" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-14" target="_FL4bQ9hlTjrG4r76knF-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="530" as="sourcePoint" />
+            <mxPoint x="680" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-23" value="可信库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="330" y="630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-24" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-14" target="_FL4bQ9hlTjrG4r76knF-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="310" as="sourcePoint" />
+            <mxPoint x="320" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-25" value="天安系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="640" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-26" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="610" as="sourcePoint" />
+            <mxPoint x="540" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-27" value="保存CDA与OFD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="369" y="540" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-28" value="证书密码服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="640" y="550" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-29" value="用户，权限中台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="100" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-30" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-29" target="_FL4bQ9hlTjrG4r76knF-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="560" as="sourcePoint" />
+            <mxPoint x="10" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-31" value="关联" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="150" y="530" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
