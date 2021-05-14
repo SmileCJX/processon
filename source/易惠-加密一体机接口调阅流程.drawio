@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T07:08:06.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="rg3QYr3C_8nbkc0DiHYq" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-14T07:09:27.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="u7s2zarDXhAT1y6Xy3Za" version="14.6.13" type="github" pages="3">
   <diagram id="ctFuMoFBZl4wvK6_Ql2x" name="流程">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -461,6 +461,24 @@
         </mxCell>
         <mxCell id="HbeaOryN1556mISuDx0a-10" value="调阅健康档案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
           <mxGeometry x="-30" y="535" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HbeaOryN1556mISuDx0a-14" value="互联网医院" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="-190" y="575" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HbeaOryN1556mISuDx0a-15" value="友虹链控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="390" y="640" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HbeaOryN1556mISuDx0a-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-15" target="HbeaOryN1556mISuDx0a-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="580" as="sourcePoint" />
+            <mxPoint x="630" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbeaOryN1556mISuDx0a-17" value="OFD相关能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="430" y="570" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HbeaOryN1556mISuDx0a-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1" source="HbeaOryN1556mISuDx0a-17" target="HbeaOryN1556mISuDx0a-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
