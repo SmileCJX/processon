@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T07:16:04.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="eSY3_XsTKSZVbgdMievC" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-14T07:19:46.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="UKqn3X1yKQzz2bmbqpJi" version="14.6.13" type="github" pages="3">
   <diagram id="ctFuMoFBZl4wvK6_Ql2x" name="流程">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -303,7 +303,7 @@
         <mxCell id="_FL4bQ9hlTjrG4r76knF-13" value="获取健康卡ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="720" y="370" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_FL4bQ9hlTjrG4r76knF-14" value="可信数据安全服务系统&lt;br&gt;credibledata V1.2.0" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-14" value="可信数据安全服务系统（DMZ区&lt;br&gt;）&lt;br&gt;credibledata V1.2.0" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="640" y="510" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_FL4bQ9hlTjrG4r76knF-15" value="注册管理系统&lt;br&gt;PHR-REG-ADMIN 1.0.0" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
@@ -372,7 +372,7 @@
         <mxCell id="_FL4bQ9hlTjrG4r76knF-32" value="证书密码服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="770" y="440" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ce0u61Esy3X-xlV0KkjO-0" value="健康档案浏览器&lt;br&gt;RHIN-PHR-Mongo V1.0.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+        <mxCell id="ce0u61Esy3X-xlV0KkjO-0" value="健康档案浏览器（DMZ区&lt;br&gt;）&lt;br&gt;RHIN-PHR-Mongo V1.0.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
           <mxGeometry x="150" y="510" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ce0u61Esy3X-xlV0KkjO-1" value="CDA转换（库表——》CDA）&lt;br&gt;SDK or RHIN-CDR V1.0.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
@@ -459,7 +459,7 @@
         <mxCell id="HbeaOryN1556mISuDx0a-10" value="调阅健康档案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
           <mxGeometry x="-30" y="535" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HbeaOryN1556mISuDx0a-14" value="互联网医院" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+        <mxCell id="HbeaOryN1556mISuDx0a-14" value="互联网医院（DMZ区）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
           <mxGeometry x="-190" y="575" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HbeaOryN1556mISuDx0a-15" value="友虹链控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
