@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T07:07:27.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="EFUxRFt0J1vM-qHad5J2" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-14T07:08:06.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="rg3QYr3C_8nbkc0DiHYq" version="14.6.13" type="github" pages="3">
   <diagram id="ctFuMoFBZl4wvK6_Ql2x" name="流程">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -417,7 +417,7 @@
             <mxPoint x="230" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ce0u61Esy3X-xlV0KkjO-11" value="通过索引获取列表和详情数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+        <mxCell id="ce0u61Esy3X-xlV0KkjO-11" value="通过索引获取列表和详情数据&lt;br&gt;详情分为两种模式（HTML OR OFD版式）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
           <mxGeometry x="400" y="490" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ce0u61Esy3X-xlV0KkjO-12" value="保存CDA与OFD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
