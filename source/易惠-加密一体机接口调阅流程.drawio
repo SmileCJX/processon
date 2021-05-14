@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T06:34:01.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="GwRTuGIh8DERdWcgLiIb" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-14T06:51:57.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ahLfJthDQuiNsnIynu9M" version="14.6.13" type="github" pages="3">
   <diagram id="ctFuMoFBZl4wvK6_Ql2x" name="流程">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -261,7 +261,7 @@
         <mxCell id="_FL4bQ9hlTjrG4r76knF-3" value="数据采集系统&lt;br&gt;kettle-monitor" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_FL4bQ9hlTjrG4r76knF-4" value="数据转换系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-4" value="数据转换系统&lt;br&gt;HSA-RIP&lt;br&gt;HSA-RIP-ADMIN" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="630" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_FL4bQ9hlTjrG4r76knF-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-2" target="_FL4bQ9hlTjrG4r76knF-3" edge="1">
@@ -303,7 +303,7 @@
         <mxCell id="_FL4bQ9hlTjrG4r76knF-13" value="获取健康卡ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="850" y="220" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_FL4bQ9hlTjrG4r76knF-14" value="可信数据安全服务系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-14" value="可信数据安全服务系统&lt;br&gt;credibledata" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="640" y="510" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_FL4bQ9hlTjrG4r76knF-15" value="注册管理系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
@@ -357,7 +357,7 @@
         <mxCell id="_FL4bQ9hlTjrG4r76knF-28" value="证书密码服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="830" y="590" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_FL4bQ9hlTjrG4r76knF-29" value="用户，权限中台" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-29" value="用户中台" style="rounded=0;whiteSpace=wrap;html=1;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="50" y="660" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_FL4bQ9hlTjrG4r76knF-30" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="_FL4bQ9hlTjrG4r76knF-1" source="_FL4bQ9hlTjrG4r76knF-29" target="ce0u61Esy3X-xlV0KkjO-0" edge="1">
@@ -366,13 +366,13 @@
             <mxPoint x="10" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_FL4bQ9hlTjrG4r76knF-31" value="关联" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
+        <mxCell id="_FL4bQ9hlTjrG4r76knF-31" value="打通用户体系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="100" y="600" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_FL4bQ9hlTjrG4r76knF-32" value="证书密码服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="_FL4bQ9hlTjrG4r76knF-1" vertex="1">
           <mxGeometry x="840" y="470" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ce0u61Esy3X-xlV0KkjO-0" value="健康档案浏览器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+        <mxCell id="ce0u61Esy3X-xlV0KkjO-0" value="健康档案浏览器&lt;br&gt;PHR-Mongo V1.0.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
           <mxGeometry x="150" y="510" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ce0u61Esy3X-xlV0KkjO-1" value="CDA转换（库表——》CDA）&lt;br&gt;SDK or RHIN-CDR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
@@ -422,6 +422,18 @@
         </mxCell>
         <mxCell id="ce0u61Esy3X-xlV0KkjO-12" value="保存CDA与OFD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
           <mxGeometry x="500" y="600" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ce0u61Esy3X-xlV0KkjO-13" value="权限中台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="220" y="660" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ce0u61Esy3X-xlV0KkjO-14" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="660" as="sourcePoint" />
+            <mxPoint x="220" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ce0u61Esy3X-xlV0KkjO-16" value="部分数据从库表中来，减少前端对接量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_FL4bQ9hlTjrG4r76knF-1">
+          <mxGeometry x="30" y="480" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
