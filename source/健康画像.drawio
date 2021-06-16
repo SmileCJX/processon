@@ -1,70 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T02:25:08.500Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="2Irwkk8Sj5OvR1_Y_YNa" version="14.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T02:26:28.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="v9-oQXo2vLeiya3ZRRMT" version="14.7.9" type="github">
   <diagram id="ipAjtpbhNXcNfimnjDce" name="第 1 页">
-    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sAE-GTEPMU3kprd1zCaS-1" value="健康画像因子" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="335" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-2" value="标签特征衰减因子" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="535" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-3" value="年龄增长衰减因子" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="535" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-4" value="疾病伴随因子" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="535" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAE-GTEPMU3kprd1zCaS-1" target="sAE-GTEPMU3kprd1zCaS-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="390" as="sourcePoint" />
-            <mxPoint x="720" y="340" as="targetPoint" />
+            <mxPoint x="645" y="330" as="sourcePoint" />
+            <mxPoint x="695" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAE-GTEPMU3kprd1zCaS-1" target="sAE-GTEPMU3kprd1zCaS-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="240" as="sourcePoint" />
-            <mxPoint x="570" y="90" as="targetPoint" />
+            <mxPoint x="475" y="180" as="sourcePoint" />
+            <mxPoint x="545" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-7" value="" style="endArrow=classic;html=1;entryX=0.017;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sAE-GTEPMU3kprd1zCaS-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="230" as="sourcePoint" />
-            <mxPoint x="570" y="230" as="targetPoint" />
+            <mxPoint x="465" y="170" as="sourcePoint" />
+            <mxPoint x="545" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-8" value="精确模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAE-GTEPMU3kprd1zCaS-8" target="sAE-GTEPMU3kprd1zCaS-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="420" as="sourcePoint" />
-            <mxPoint x="280" y="120" as="targetPoint" />
+            <mxPoint x="730" y="260" as="sourcePoint" />
+            <mxPoint x="620" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-10" value="患者标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-11" value="用户参与" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-12" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAE-GTEPMU3kprd1zCaS-11" target="sAE-GTEPMU3kprd1zCaS-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="660" as="sourcePoint" />
-            <mxPoint x="290" y="360" as="targetPoint" />
+            <mxPoint x="700" y="670" as="sourcePoint" />
+            <mxPoint x="590" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-13" value="画像逐步完善" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-17" value="提高准确性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAE-GTEPMU3kprd1zCaS-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="360" as="sourcePoint" />
-            <mxPoint x="380" y="360" as="targetPoint" />
+            <mxPoint x="620" y="370" as="sourcePoint" />
+            <mxPoint x="680" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAE-GTEPMU3kprd1zCaS-19" value="隐私敏感" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAE-GTEPMU3kprd1zCaS-20" value="注意点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sAE-GTEPMU3kprd1zCaS-21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAE-GTEPMU3kprd1zCaS-20" target="sAE-GTEPMU3kprd1zCaS-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAE-GTEPMU3kprd1zCaS-22" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAE-GTEPMU3kprd1zCaS-20" target="sAE-GTEPMU3kprd1zCaS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="170" as="sourcePoint" />
+            <mxPoint x="370" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAE-GTEPMU3kprd1zCaS-23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAE-GTEPMU3kprd1zCaS-20" target="sAE-GTEPMU3kprd1zCaS-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="170" as="sourcePoint" />
+            <mxPoint x="345" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAE-GTEPMU3kprd1zCaS-24" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sAE-GTEPMU3kprd1zCaS-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="170" as="sourcePoint" />
+            <mxPoint x="330" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
