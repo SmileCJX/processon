@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T05:25:26.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="2Mo2N83zPchBWBjUi9Hp" version="14.7.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-16T05:29:13.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="o2LXwxv2Bg73QsmPsx8o" version="14.7.9" type="github" pages="4">
   <diagram id="ipAjtpbhNXcNfimnjDce" name="注意点">
     <mxGraphModel dx="1422" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1068,6 +1068,22 @@
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="UFXx68ObRLfCULitV9SW-0" />
+        <mxCell id="UFXx68ObRLfCULitV9SW-52" value="底层框" parent="UFXx68ObRLfCULitV9SW-0" />
+        <mxCell id="UFXx68ObRLfCULitV9SW-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-52">
+          <mxGeometry x="50" y="80" width="650" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UFXx68ObRLfCULitV9SW-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-52">
+          <mxGeometry x="50" y="180" width="650" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UFXx68ObRLfCULitV9SW-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-52">
+          <mxGeometry x="850" y="70" width="180" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="UFXx68ObRLfCULitV9SW-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-52">
+          <mxGeometry x="50" y="280" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UFXx68ObRLfCULitV9SW-59" value="组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-52">
+          <mxGeometry x="840" y="80" width="70" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="UFXx68ObRLfCULitV9SW-1" parent="UFXx68ObRLfCULitV9SW-0" />
         <mxCell id="UFXx68ObRLfCULitV9SW-2" value="个性化医疗" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-1">
           <mxGeometry x="60" y="100" width="120" height="60" as="geometry" />
@@ -1194,6 +1210,24 @@
         </mxCell>
         <mxCell id="UFXx68ObRLfCULitV9SW-44" value="临床指南" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-1">
           <mxGeometry x="770" y="680" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UFXx68ObRLfCULitV9SW-45" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-1">
+          <mxGeometry x="880" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFXx68ObRLfCULitV9SW-46" value="Storm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-1">
+          <mxGeometry x="880" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFXx68ObRLfCULitV9SW-47" value="Spark" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-1">
+          <mxGeometry x="880" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFXx68ObRLfCULitV9SW-48" value="MongoDB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-1">
+          <mxGeometry x="880" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFXx68ObRLfCULitV9SW-49" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-1">
+          <mxGeometry x="880" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFXx68ObRLfCULitV9SW-50" value="Lucene" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="UFXx68ObRLfCULitV9SW-1">
+          <mxGeometry x="880" y="570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
