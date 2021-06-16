@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T03:10:38.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="SgzIuMWZbQ8-QKvHcvRa" version="14.7.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-16T03:11:12.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="S8YegYZ7RgZ6Q34NokgU" version="14.7.9" type="github" pages="2">
   <diagram id="ipAjtpbhNXcNfimnjDce" name="注意点">
     <mxGraphModel dx="1422" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -733,12 +733,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W9l10nUzSr7wy5UgvSgY-147" value="&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;随机森林方式&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="W9l10nUzSr7wy5UgvSgY-1">
-          <mxGeometry x="-660" y="250" width="90" height="20" as="geometry" />
+          <mxGeometry x="-690" y="260" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W9l10nUzSr7wy5UgvSgY-148" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="W9l10nUzSr7wy5UgvSgY-1" source="W9l10nUzSr7wy5UgvSgY-145" target="W9l10nUzSr7wy5UgvSgY-147">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-605" y="425" as="sourcePoint" />
             <mxPoint x="-712.02" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W9l10nUzSr7wy5UgvSgY-149" value="&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;疾病预测标签&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="W9l10nUzSr7wy5UgvSgY-1">
+          <mxGeometry x="-540" y="210" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W9l10nUzSr7wy5UgvSgY-150" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="W9l10nUzSr7wy5UgvSgY-1" source="W9l10nUzSr7wy5UgvSgY-147" target="W9l10nUzSr7wy5UgvSgY-149">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-705" y="350" as="sourcePoint" />
+            <mxPoint x="-635" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
