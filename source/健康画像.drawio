@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T05:12:40.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="BXUopPnsgE5cg2TJOpC_" version="14.7.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-16T05:17:26.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="V2t4Y-erF4r8ckrCNDRn" version="14.7.9" type="github" pages="3">
   <diagram id="ipAjtpbhNXcNfimnjDce" name="注意点">
     <mxGraphModel dx="1422" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -826,7 +826,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mpL84qbXYy-vdn8qjZJM" name="患者画像装置">
-    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Ad1-0uTeJOOeY9DL4P3O-0" />
         <mxCell id="Ad1-0uTeJOOeY9DL4P3O-1" parent="Ad1-0uTeJOOeY9DL4P3O-0" />
@@ -839,8 +839,14 @@
         <mxCell id="Ad1-0uTeJOOeY9DL4P3O-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="Ad1-0uTeJOOeY9DL4P3O-1" source="Ad1-0uTeJOOeY9DL4P3O-2" target="Ad1-0uTeJOOeY9DL4P3O-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ad1-0uTeJOOeY9DL4P3O-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="Ad1-0uTeJOOeY9DL4P3O-1" source="Ad1-0uTeJOOeY9DL4P3O-2" target="Ad1-0uTeJOOeY9DL4P3O-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad1-0uTeJOOeY9DL4P3O-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="Ad1-0uTeJOOeY9DL4P3O-1" source="Ad1-0uTeJOOeY9DL4P3O-2" target="Ad1-0uTeJOOeY9DL4P3O-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ad1-0uTeJOOeY9DL4P3O-2" value="患者画像装置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Ad1-0uTeJOOeY9DL4P3O-1">
-          <mxGeometry x="10" y="270" width="80" height="40" as="geometry" />
+          <mxGeometry x="-60" y="700" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ad1-0uTeJOOeY9DL4P3O-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="Ad1-0uTeJOOeY9DL4P3O-1" source="Ad1-0uTeJOOeY9DL4P3O-3" target="Ad1-0uTeJOOeY9DL4P3O-5">
           <mxGeometry relative="1" as="geometry" />
@@ -981,7 +987,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ad1-0uTeJOOeY9DL4P3O-45" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;患者标签计算提取模块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Ad1-0uTeJOOeY9DL4P3O-1">
-          <mxGeometry x="120" y="660" width="90" height="20" as="geometry" />
+          <mxGeometry x="140" y="670" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ad1-0uTeJOOeY9DL4P3O-46" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;患者基本信息标签&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Ad1-0uTeJOOeY9DL4P3O-1">
           <mxGeometry x="270" y="640" width="80" height="20" as="geometry" />
@@ -1009,6 +1015,30 @@
         </mxCell>
         <mxCell id="Ad1-0uTeJOOeY9DL4P3O-54" value="关联因子" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Ad1-0uTeJOOeY9DL4P3O-1">
           <mxGeometry x="280" y="1010" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad1-0uTeJOOeY9DL4P3O-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="Ad1-0uTeJOOeY9DL4P3O-1" source="Ad1-0uTeJOOeY9DL4P3O-77" target="Ad1-0uTeJOOeY9DL4P3O-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad1-0uTeJOOeY9DL4P3O-77" value="&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;患者标签在线确认模块&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Ad1-0uTeJOOeY9DL4P3O-1">
+          <mxGeometry x="130" y="1070" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad1-0uTeJOOeY9DL4P3O-78" value="患者画像自调整" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Ad1-0uTeJOOeY9DL4P3O-1">
+          <mxGeometry x="270" y="1080" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad1-0uTeJOOeY9DL4P3O-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="Ad1-0uTeJOOeY9DL4P3O-1" source="Ad1-0uTeJOOeY9DL4P3O-81" target="Ad1-0uTeJOOeY9DL4P3O-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad1-0uTeJOOeY9DL4P3O-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="Ad1-0uTeJOOeY9DL4P3O-1" source="Ad1-0uTeJOOeY9DL4P3O-81" target="Ad1-0uTeJOOeY9DL4P3O-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad1-0uTeJOOeY9DL4P3O-81" value="&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;基于区块链的隐私保护模块&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Ad1-0uTeJOOeY9DL4P3O-1">
+          <mxGeometry x="115" y="1130" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad1-0uTeJOOeY9DL4P3O-82" value="去中心化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Ad1-0uTeJOOeY9DL4P3O-1">
+          <mxGeometry x="270" y="1130" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad1-0uTeJOOeY9DL4P3O-83" value="匿名化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Ad1-0uTeJOOeY9DL4P3O-1">
+          <mxGeometry x="270" y="1169" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
