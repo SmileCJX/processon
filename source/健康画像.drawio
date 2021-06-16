@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T05:18:31.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="aJOOZYCPwVC0WY4ooFCX" version="14.7.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-16T05:19:16.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="IUlgF1mt3g1AR92Xd9YV" version="14.7.9" type="github" pages="4">
   <diagram id="ipAjtpbhNXcNfimnjDce" name="注意点">
     <mxGraphModel dx="1422" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1061,6 +1061,14 @@
         <mxCell id="Ad1-0uTeJOOeY9DL4P3O-90" value="Web API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="Ad1-0uTeJOOeY9DL4P3O-1">
           <mxGeometry x="250" y="1310" width="80" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jizDbPx0vzgXc6A_fZcG" name="架构图">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UFXx68ObRLfCULitV9SW-0" />
+        <mxCell id="UFXx68ObRLfCULitV9SW-1" parent="UFXx68ObRLfCULitV9SW-0" />
       </root>
     </mxGraphModel>
   </diagram>
