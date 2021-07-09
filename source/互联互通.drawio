@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T06:34:26.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Wj_YUZGzdlvP4SwNbHNy" version="14.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-09T10:32:51.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="f9kWK48TfH7RjUdX9-yE" version="14.8.5" type="github" pages="3">
   <diagram id="SYd-H-9BH7z0QhjCpFqo" name="产品模块">
-    <mxGraphModel dx="2249" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -369,6 +369,14 @@
             <mxPoint x="340" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2qwcu6rejqSk_iHTi4Sn" name="政策文件">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="qfWuZX1RPksjxZKfcW4J-0" />
+        <mxCell id="qfWuZX1RPksjxZKfcW4J-1" parent="qfWuZX1RPksjxZKfcW4J-0" />
       </root>
     </mxGraphModel>
   </diagram>
